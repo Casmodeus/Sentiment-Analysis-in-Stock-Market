@@ -9,5 +9,12 @@ September 2,2020: The S&P500 index closed at a RECORD high of 3579. It's histori
 # Project description
 The project's main research goal is to see if social media panics before the stock market does, or if the stock market panicks before social media does.
 
+Methodology:
+<ul style = "list-style-type: square;">
+<li>Scoring sentiment - Done using Vader(Python package) with some alterations in order account for stock specific sentiment</li>
+<li>Visualisation –Done using Plotly</li>
+<li>Data –Personal database scraped via Twint and tweepy with Twitter API.</li>
+</ul>
+
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Important Note:
 GitHub doesn't support the plotly plots in the Jupyter Notebook directly, here's the pre-rendered HTML file for that. 
